@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Leap year  </title>
+<script> 
+
+function main()
+{
+ let year=Number(prompt("enter year"));
+ if((year%400==0)||(year%4==0 && year%100!=0 ))
+ {
+    console.log(`year ${year} is leap year`);
+ }else{
+    console.log(`year ${year} is not leap year`);
+ }
+}
+main(); 
+</script>
+</head>
+</html>
